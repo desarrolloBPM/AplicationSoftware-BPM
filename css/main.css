@@ -101,7 +101,7 @@ section {
   right: 0;
   bottom: 0;
   z-index: 999999;
-  background: #fff;
+  background:#163c87;
 }
 
 .preloader > i {
