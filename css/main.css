@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-size: 30px;
-  margin-bottom: 20px;
 }
 
 h3 {
@@ -74,9 +73,9 @@ h3 {
 
 a {
   text-decoration: none;
-  -webkit-transition: 300ms;
+  -webkit-transition: 100ms;
   -moz-transition: 300ms;
-  -o-transition: 300ms;
+  -o-transition: 100ms;
   transition: 300ms;
 }
 
@@ -87,11 +86,11 @@ a:hover {
 }
 
 section {
-  padding: 90px 0;
+  padding: 10px 0;
 }
 
 .heading {
-  padding-bottom:90px;
+  padding-bottom:10px;
 }
 
 .preloader {
@@ -101,7 +100,7 @@ section {
   right: 0;
   bottom: 0;
   z-index: 999999;
-  background:#163c87;
+  background:white;
 }
 
 .preloader > i {
@@ -334,30 +333,6 @@ section {
 
 #about-us h1 {
   margin-bottom: 30px;
-}
-
-.progress{
-  height: 20px;
-  background-color: #fff;
-  border-radius: 0;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  margin-bottom: 25px;
-}
-
-.progress-bar{
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  text-align: right;
-  padding-right: 12px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-
-.progress .progress-bar.six-sec-ease-in-out {
-  -webkit-transition: width 2s ease-in-out;
-  transition:  width 2s ease-in-out;
 }
 
 /*************************
