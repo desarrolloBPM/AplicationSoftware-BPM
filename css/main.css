@@ -309,6 +309,14 @@ section {
 .service-info h3 {
   margin-top: 35px;
 }
+/*************************
+********Industry CSS******
+**************************/
+#industry {
+  background-image: url();
+  background-color: rgba(0,0,0,.7);
+  padding: 60px 0;
+}
 
 /*************************
 ********About CSS*******
@@ -333,6 +341,56 @@ section {
 
 #about-us h1 {
   margin-bottom: 30px;
+}
+/*************************
+********Technologies CSS**
+*************************/
+
+.services-content-list-wrapper--tech .services-content-list__item-img {
+  max-height: 60px;
+}
+.services-content-list-wrapper--tech .services-content-list__item-img {
+  max-height: 55px;
+}
+.services-content-list__item-img {
+  max-height: 9.688rem;
+}
+.img-responsive {
+  display: block;
+  height: auto;
+  margin: -14px auto;
+  max-height: 400%;
+  position: relative;
+  width: auto;
+}
+.services-content-list-wrapper--tech .services-content-list {
+  text-align: center;
+}
+.services-content-list-wrapper--tech .services-content-list {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.services-content-list-wrapper--tech .services-content-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: -10px;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.services-content-list-wrapper--tech .services-content-list {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 /*************************
